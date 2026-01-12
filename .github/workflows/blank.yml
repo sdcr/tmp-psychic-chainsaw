@@ -44,4 +44,4 @@ jobs:
           echo environment variable 2: ${{ env.foo2 }}
           echo environment variable 2 caps: ${{ env.FOO2 }}
           echo environment variable 2 vars: ${{ vars.foo2 }}
-          echo environment secret: ${{ secret.foosec }}
+          echo environment secret: ${{ secrets.foosec }}
