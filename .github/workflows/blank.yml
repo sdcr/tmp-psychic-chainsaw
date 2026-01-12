@@ -42,3 +42,4 @@ jobs:
           echo test, and deploy your project.
           echo environment variable: ${{ env.foo }}
           echo environment variable 2: ${{ env.foo2 }}
+          echo environment variable 2 caps: ${{ env.FOO2 }}
